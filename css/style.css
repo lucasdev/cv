@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'impactregular';
+    src: url('../fonts/impact-webfont.eot');
+    src: url('../fonts/impact-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/impact-webfont.woff2') format('woff2'),
+    url('../fonts/impact-webfont.woff') format('woff'),
+    url('../fonts/impact-webfont.ttf') format('truetype'),
+    url('../fonts/impact-webfont.svg#impactregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo-wide {
+    margin-top: -90px;
+}
+.logo-mobile {
+    margin-top: -20px;
+}
+.container-fill-horizontal {
+    height: 5px;
+    background-color: #760000;
+    margin-top: -14px;
+    margin-bottom: 450px
+}
+.container-fill-detail {
+    background-image: url("../images/back_barras.jpg");
+    background-repeat: repeat-x;
+    height: 135px;
+}
+.content-section {
+    margin-top: 20px;
+}
+.laco_barra_esq {
+    background-image: url("../images/dobra_barras.jpg");
+    background-repeat: no-repeat;
+    height: 135px;
+}
+.laco_barra_esq h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: impact;
+    color: white;
+}
+.laco_barra_dir {
+    background-image: url("../images/dobra_barras.jpg");
+    background-repeat: no-repeat;
+    height: 135px;
+    background-position-x: 100%;
+}
+.laco_barra_dir h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: impact;
+    color: white;
+}
+
+.content-section .container {
+    height: 640px;
+}
+.content-section-bottom {
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.menu_item_devider {
+    float: right;
+    height: 20px;
+    width: 0px;
+    border-left: 1px solid rgb(240,240,240, 1.0);
+    border-left: 1px solid rgba(240,240,240, 1.0);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-top: -35px;
+    padding-left: 1px;
+    padding-right: 1px;
+    z-index: 9002;
+}
+
+.navbar-themebessa {
+    background-color: #760000;
+    border-color: #fff;
+    margin-top: 80px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.navbar-themebessa .navbar-brand {
+    color: #fff;
+}
+.navbar-themebessa .navbar-brand:hover,
+.navbar-themebessa .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-themebessa .navbar-text {
+    color: #fff;
+}
+.navbar-themebessa .navbar-nav > li > a {
+    color: #fff;
+    font-size: 20px;
+}
+.navbar-themebessa .navbar-nav > li > a:hover,
+.navbar-themebessa .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-themebessa .navbar-nav > .active > a,
+.navbar-themebessa .navbar-nav > .active > a:hover,
+.navbar-themebessa .navbar-nav > .active > a:focus {
+    color: #f0ad4e;
+    background-color: transparent;
+}
+.navbar-themebessa .navbar-nav > .disabled > a,
+.navbar-themebessa .navbar-nav > .disabled > a:hover,
+.navbar-themebessa .navbar-nav > .disabled > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-themebessa .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-themebessa .navbar-toggle:hover,
+.navbar-themebessa .navbar-toggle:focus {
+    background-color: transparent;
+}
+.navbar-themebessa .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-themebessa .navbar-collapse,
+.navbar-themebessa .navbar-form {
+    border-color: #760000;
+}
+.navbar-themebessa .navbar-nav > .open > a,
+.navbar-themebessa .navbar-nav > .open > a:hover,
+.navbar-themebessa .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+@media (max-width: 767px) {
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        background-color: transparent;
+    }
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #fff;
+        background-color: #760000;
+    }
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-themebessa .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #fff;
+        background-color: transparent;
+    }
+}
+.navbar-themebessa .navbar-link {
+    color: #fff;
+}
+.navbar-themebessa .navbar-link:hover {
+    color: #fff;
+}
+.navbar-themebessa .btn-link {
+    color: #fff;
+}
+.navbar-themebessa .btn-link:hover,
+.navbar-themebessa .btn-link:focus {
+    color: #fff;
+}
+.navbar-themebessa .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-themebessa .btn-link:hover,
+.navbar-themebessa .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-themebessa .btn-link:focus {
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .logo-wide {
+        margin-top: -90px;
+    }
+    .logo-mobile {
+        margin-top: -20px;
+    }
+    #home h1, #oquefazemos h1, #faleconosco h1 {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 50px;
+        font-family: impact;
+        color: white;
+    }
+    #sobrenos h1 {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 50px;
+        font-family: impact;
+        color: white;
+    }
+    .laco_barra_esq, .laco_barra_dir {
+        background-image: none;
+        height: 135px;
+    }
+    .navbar-themebessa .navbar-nav > li > a {
+        color: #fff;
+        font-size: 15px
+    }
+}
